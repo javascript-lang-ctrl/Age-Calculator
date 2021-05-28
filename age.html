@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+</head>
+<title> Guesser </title>
+<body>
+<img src="" id="p">
+<input type="text" id="a" placeholder="Enter Your Age">
+<input type="text" id="cy" placeholder="Enter the Current Year">
+<button id="s"> SUBMIT </button>
+<script>
+var btn = document.getElementById('s');
+var a = document.getElementById('a');
+var cy =document.getElementById('cy');
+btn.addEventListener("click" , function(){
+
+alert(cy.value - a.value);
+var y = cy.value - a.value;
+
+}); 
+</script>
+
+</body>
